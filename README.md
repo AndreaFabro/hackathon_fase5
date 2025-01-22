@@ -1,7 +1,7 @@
 # hackathon_fase5
 Hackathon do curso IA para Devs - Grupo 9
 
-#Detecção de materiais cortantes
+**Detecção de materiais cortantes**
 
   A FIAP VisionGuard, empresa de monitoramento de câmeras de
 segurança, está analisando a viabilidade de uma nova funcionalidade para
@@ -16,3 +16,13 @@ para a central de segurança.
 isso, será necessário fazer um MVP para detecção supervisionada desses
 objetos.
 
+**Objetivos**
+
+- Construir ou buscar um dataset contendo imagens de facas, tesouras e
+outros objetos cortantes em diferentes condições de ângulo e
+iluminação;
+- Anotar o dataset para treinar o modelo supervisionado, incluindo
+imagens negativas (sem objetos perigosos) para reduzir falsos positivos;
+- Treinar o modelo;
+- Desenvolver um sistema de alertas (pode ser um e-mail).
+  
