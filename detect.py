@@ -1,3 +1,6 @@
+from ultralytics import YOLO
+model = YOLO("yolo11s.pt")
+
 import random
 import cv2
 import os
@@ -7,7 +10,7 @@ import yaml
 # Caminhos dos diretórios e arquivo YAML
 image_dir = '/kaggle/input/guns-and-knifes-detection-in-cctv-videos/combined_gunsnknifes/train/images'
 label_dir = '/kaggle/input/guns-and-knifes-detection-in-cctv-videos/combined_gunsnknifes/train/labels'
-yaml_path = '/kaggle/input/guns-and-knifes-detection-in-cctv-videos/combined_gunsnknifes/data.yaml'
+yaml_path = 'https://www.kaggle.com/code/myriamgam62/guns-and-knife-detection-yolov11-new/input/guns-and-knifes-detection-in-cctv-videos/combined_gunsnknifes/data.yaml'
 
 # Carregar os nomes das classes do arquivo YAML
 with open(yaml_path, 'r') as f:
