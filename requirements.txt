@@ -1,0 +1,16 @@
+
+# modelo yolov11
+ultralytics
+
+#bibliotecas
+random
+
+cv2
+
+os
+
+matplotlib.pyplot
+
+yaml
+
+
