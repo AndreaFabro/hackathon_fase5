@@ -28,6 +28,9 @@ imagens negativas (sem objetos perigosos) para reduzir falsos positivos;
   
 **Configuração**
 
+A biblioteca ultralytics (modelo yolov) requer versão do python >=3.7 e <=3.11
+Verifique a versão do python e caso não esteja nesse intervalo de versão, atualize.
+
 No arquivo "requirements.txt" estão relacionados as bibliotecas necessários para execução do projeto.
 Para instalá-las execute: "pip install -r requirements.txt"
 
