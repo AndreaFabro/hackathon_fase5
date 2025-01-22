@@ -28,7 +28,7 @@ imagens negativas (sem objetos perigosos) para reduzir falsos positivos;
   
 **Configuração**
 
-O arquivo "requirements.txt" estão relacionados as bibliotecas necessários para execução do projeto.
+No arquivo "requirements.txt" estão relacionados as bibliotecas necessários para execução do projeto.
 Para instalá-las execute: "pip install -r requirements.txt"
 
 O arquivo "detect.py" contém o projeto e deverá ser executado após a instalação das bibliotecas.
